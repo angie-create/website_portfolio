@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="./style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <nav>
-            <ol>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Skills</li>
-                <li>Contact</li>
-            </ol>
-        </nav>
-        <main>
-            <div>
-            <h1>Angie parada</h1>
-            <h2>About me</h2>
-            <p>I'm the best</p>
+        <header class="header">
+            <div class="logo">
             </div>
-            <div>
-                <img src="">
-            </div>
+            <nav>
+                <ol class="nav-links">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="about-me" id="about-me">
+                <h1>Angie Parada</h1>
+                <div class="about-me-container">
+                    <div class="my-info">
+                        <h2>About me</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorem blanditiis repellendus rem enim iste illo vero, expedita nostrum eum architecto, excepturi, nemo nam. Tenetur adipisci voluptatem repellendus nulla neque.</p>
+                    </div>
+                    <div class="my-photo">
+                        <img src="./img/AngieParada.jpg" alt="foto Angelica Parada"/>
+                    </div>
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <div class="project-container">
+                    <div class="project">
+                        <img src="./img/CasaTara.png" alt="Screenshot of website" />
+                        <h3>Proyect 1: Casa Tara</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus rem eos eum facere commodi odio provident voluptatem, debitis porro tempore vero nesciunt aspernatur distinctio nemo! Dicta doloremque maxime blanditiis ab!</p>
+                    </div>
+                    <div class="project">
+                        <img src="./img/Webportfolio.png" alt="Screenshot of website" />
+                        <h3>Proyect 2: In progress</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, voluptatum ullam! Quas inventore, laboriosam iusto perspiciatis ipsa repellat nihil, ad id at itaque enim error maxime unde, hic dicta laudantium.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skill">
+                        <img src="./img/CSS.png" alt="Logo of..." />
+                    </div>
+                    <div class="skill">
+                        <img src="./img/FIGMA.png" alt="Logo of..." />
+                    </div>
+                    <div class="skill">
+                        <img src="./img/GIT.png" alt="Logo of..." />
+                    </div>
+                    <div class="skill">
+                        <img src="./img/GITHUB.png" alt="Logo of..." />
+                    </div>
+                    <div class="skill">
+                        <img src="./img/HTML.png" alt="Logo of..." />
+                    </div>
+                    <div class="skill">
+                        <img src="./img/JS.png" alt="Logo of..." />
+                    </div>
+                </div>
+            </section>
         </main>
-        <section>
-            <h2>Projects</h2>
-            <div>
-                <img src="#" alt="Screenshot of website" />
-                <h3>Proyect 1: Casa Tara</h3>
-            </div>
-            <div>
-                <img src="#" alt="Screenshot of website" />
-                <h3>Proyect 2: In progress</h3>
-            </div>
-        </section>
-        <section>
-            <div>
-                <img src="#" alt="Logo of..." />
-                <p>Skill</p>
-            </div>
-            <div>
-                <img src="#" alt="Logo of..." />
-                <p>Skill</p>
-            </div>
-            <div>
-                <img src="#" alt="Logo of..." />
-                <p>Skill</p>
-            </div>
-            <div>
-                <img src="#" alt="Logo of..." />
-                <p>Skill</p>
-            </div>
-            <div>
-                <img src="#" alt="Logo of..." />
-                <p>Skill</p>
-            </div>
-        </section>
-        <footer>
+        <footer class="footer">
             <p>Made with love from Mexico</p>
         </footer>
     </body>
