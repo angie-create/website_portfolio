@@ -235,6 +235,12 @@ h2{
     height:90px;
 }
 
+canvas {
+    background: #F5E4D7;
+    display: block;
+    margin: 0 auto;
+  }
+
 
 
 
